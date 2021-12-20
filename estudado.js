@@ -1,8 +1,8 @@
 let corSite ='azul';
-function resetaCor (cor,tonalidade){
-    corSite = cor +tonalidade;
+function multiplicarpordois (valor) {
+   return valor * 2
 }
 
-console.log(corSite);
-resetaCor("vermelho"," claro")
-console.log(corSite);
+//console.log(multiplicarpordois (5));
+let resultado = multiplicarpordois (5)
+console.log(resultado)
