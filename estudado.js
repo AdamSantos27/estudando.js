@@ -1,8 +1,12 @@
-let maiorDeIdade = false;
-let possuiCarteiraDeTrabalho = true;
-let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho;
-console.log('pode aplicar: ',podeAplicar);
-
-let candidatoRecusado = !podeAplicar;
-
-console.log('Candidato Recusado',candidatoRecusado)
+var Animal = 'dinossauro';
+switch (Animal) {
+    case 'Vaca':
+    case 'Girafa':
+    case 'Cachorro':
+    case 'Porco':
+        alert('Esse animal irá para Arca de Noé');
+        break;
+    case '':
+    default:
+        alert('Esse animal não vai para a Arca.');
+}
